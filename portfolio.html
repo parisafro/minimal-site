@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcom to my profile</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Antic Slab">
+</head>
+<body>
+    <div class="portfolio-content-wrapper">
+        <div class="portfolio-items-wrapper">
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-image-wrapper" style="background-image: url(images/bench-accounting-nvzvOPQW0gc-unsplash.jpg);">
+                </div>
+                <div class="title-subtitle-wrapper">
+                        <div class="title-wrapper">
+                            Be as you wish to seem.
+                        </div>
+                        <div class="subtitle-wrapper">
+                            Socrates
+                        </div>
+                    </div>
+            </div>
+            <div class="portfolio-item-wrapper">
+                <div class="portfolio-image-wrapper" 
+                    style="background-image: url(images/the-creative-exchange-d2zvqp3fpro-unsplash.jpg);">
+                </div>
+                <div class="title-subtitle-wrapper">
+                    <div class="title-wrapper">
+                         We can complain because rose bushes have thorns. Or rejoice because thorn bushes have roses.
+                    </div>
+                    <div class="subtitle-wrapper">
+                        Abraham Lincoln
+                    </div>
+                </div>
+            </div>
+                <div class="portfolio-item-wrapper">
+                        <div class="portfolio-image-wrapper" style="background-image: url(images/pawel-czerwinski-lWBZ01XRRoI-unsplash.jpg);">
+                        </div>
+                        <div class="title-subtitle-wrapper">
+                            <div class="title-wrapper">
+                                Never give up without a fight!
+                            </div>
+                            <div class="subtitle-wrapper">
+                                Abraham Lincoln
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-image-wrapper" style="background-image: url(images/jess-bailey-cU7wLFRyWWw-unsplash.jpg);">
+                        </div>
+                        <div class="title-subtitle-wrapper">
+                            <div class="title-wrapper">
+                                The secret of success is constancy to purpose.
+                            </div>
+                            <div class="subtitle-wrapper">
+                                Benjamin Disraeli
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-image-wrapper" style="background-image: url(images/sincerely-media-ylveRpZ8L1s-unsplash.jpg);">
+                        </div>
+                        <div class="title-subtitle-wrapper">
+                            <div class="title-wrapper">
+                                Stop wishing;
+                                Start Doing
+                            </div>
+                            <div class="subtitle-wrapper">
+                                Abraham Lincoln
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-image-wrapper" style="background-image: url(images/federica-galli--4qhiC6RmQw-unsplash.jpg);">
+                        </div>
+                        <div class="title-subtitle-wrapper">
+                            <div class="title-wrapper">
+                                People who say it cannot be done should not interrupt those who are doing it.
+                            </div>
+                            <div class="subtitle-wrapper">
+                                    Chinese Proverb
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-image-wrapper" style="background-image: url(images/kak-webb-C6oPXOatFD8-unsplash.jpg);">
+                        </div>
+                        <div class="title-subtitle-wrapper">
+                            <div class="title-wrapper">
+                                Nothing is a waste of time if you use the experience wisely. 
+                            </div>
+                            <div class="subtitle-wrapper">
+                                Rodin
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-image-wrapper" style="background-image: url(images/mukul-wadhwa-xpo5BggQo3E-unsplash.jpg);">
+                        </div>
+                        <div class="title-subtitle-wrapper">
+                            <div class="title-wrapper">
+                                Well begun is half done.  
+                            </div>
+                            <div class="subtitle-wrapper">
+                                Aristotle
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="portfolio-item-wrapper">
+                        <div class="portfolio-image-wrapper" style="background-image: url(images/scott-webb-hDyO6rr3kqk-unsplash.jpg);">
+                        </div>
+                        <div class="title-subtitle-wrapper">
+                            <div class="title-wrapper">
+                                It all depends on how we look at things, and not how they are in themselves. 
+                            </div>
+                            <div class="subtitle-wrapper">
+                                Carl Jung
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</body>
+<script>
+    const allitems=document.querySelectorAll('.portfolio-item-wrapper')
+    allitems.forEach(e=>{
+        e.addEventListener('mouseover',() =>{
+            e.childNodes[1].classList.add('img-filter');
+        })
+        e.addEventListener('mouseout',() =>{
+            e.childNodes[1].classList.remove('img-filter');
+        })
+    })
+    
+</script>
+</html>
